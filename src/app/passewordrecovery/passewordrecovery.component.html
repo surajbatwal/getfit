@@ -1,0 +1,21 @@
+
+<br>
+<br>
+<br>
+<app-shortcut></app-shortcut>
+<br>
+
+<h1> Password Recovery</h1>
+
+<br>
+<br>
+<mat-form-field appearance="outline">
+    <mat-label>Email-id</mat-label>
+    <input matInput  placeholder="pat@example.com" [formControl]="email" required  >
+    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> 
+    
+</mat-form-field>
+
+<br>
+<br>
+<button mat-stroked-button color="primary"  >Send Link</button>

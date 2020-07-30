@@ -1,0 +1,26 @@
+h1
+{
+font-size: 25px;
+font-weight: bold;
+color: limegreen;
+margin-inline-start: 13em;
+}
+
+.mat-form-field
+{
+  width:21em;
+  margin-inline-start: 20em;
+}
+
+.mat-stroked-button
+{
+width: 150px;
+background-color: limegreen;
+color: white;
+margin-inline-start: 25em;
+}
+
+.mat-stroked-button:hover
+{
+  border-color: red;
+}

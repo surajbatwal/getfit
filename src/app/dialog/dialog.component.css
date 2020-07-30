@@ -1,0 +1,17 @@
+h1
+{
+    color:limegreen;
+    font-weight: bold;
+}
+
+input
+{
+width: 15em;
+height: 30px;
+}
+
+.mat-stroked-button
+{
+    margin-inline-start: 50px;
+    color: limegreen;
+}

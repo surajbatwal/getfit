@@ -1,0 +1,68 @@
+
+<br>
+<br>
+<br>
+<app-shortcut></app-shortcut>
+<h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contribute</h1>
+
+
+
+<li>
+there are multiple solutions for single problem ,
+not  only experts but sometimes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;user also can give the better 
+solution on particular problem. 
+</li>
+<br>
+<li>
+Hence we provide these feature in our project,if you have some healthy tip which
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;not  mention in our website then you can share it with us.  
+</li>
+<br>
+<li>
+For share your idea with us, you need to register first  only then your tip will
+be &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; take under consideration. 
+</li>
+<br>
+<li>
+    Need of registration is simply to keep record of your contribution as well as 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;individully  identify the tip given by particular user.
+</li>
+<br>
+<br>
+
+<div>
+<mat-form-field appearance="outline">
+    <mat-label>Category</mat-label>
+    <mat-select disableRipple>
+        
+      <mat-option *ngFor="let value of topics" value="{{value}}">{{value}}</mat-option>
+     
+    </mat-select>
+  </mat-form-field>
+&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+<mat-form-field class="width" appearance="outline" >
+    <mat-label>Title</mat-label>
+    <input id="title" matInput >
+    
+</mat-form-field>
+<br>
+
+<mat-form-field class="width1" appearance="outline" >
+    <mat-label>Details</mat-label>
+    <textarea matInput
+            cdkTextareaAutosize
+            #autosize="cdkTextareaAutosize"
+            cdkAutosizeMinRows="1"
+            cdkAutosizeMaxRows="5"></textarea>
+</mat-form-field>
+<br>
+
+<button mat-stroked-button type="submit" color="warn">Submit</button>
+<button mat-stroked-button type="submit" color="warn">Cancle</button>
+<br>
+<br>
+<br>
+<br>
+
+</div>

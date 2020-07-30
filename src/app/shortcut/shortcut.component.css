@@ -1,0 +1,26 @@
+div
+{
+    float:right;
+    line-height: 30px;
+}
+
+h1
+{
+    color:limegreen;
+    font-weight: bold;
+}
+
+a
+{
+    font-size: 17px;
+    font-weight: bold;
+    color:limegreen;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: red;
+    text-decoration-line: underline;
+    color: red;
+}

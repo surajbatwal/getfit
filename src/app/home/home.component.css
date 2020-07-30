@@ -1,0 +1,21 @@
+
+
+p
+{
+    color: gray;
+    font-size: 18px ;
+    line-height: 23px;
+    text-transform: capitalize;
+}
+
+h1
+{
+    color:limegreen;
+    font-weight: bold;
+}
+
+.mat-stroked-button
+{
+height: 40px;
+width:150px;
+}

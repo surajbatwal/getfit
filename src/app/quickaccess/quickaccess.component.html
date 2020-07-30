@@ -1,0 +1,201 @@
+
+<br>
+<br>
+<br>
+<br>
+
+<app-shortcut ></app-shortcut>
+
+
+
+<div *ngIf="no1">
+<h2>Here is the top 5 most visited topics </h2>
+<mat-accordion >
+   
+      <mat-expansion-panel hideToggle>
+    
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{msg1}}
+          </mat-panel-title>
+          <mat-panel-description >
+            
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <ul *ngFor="let value of Heart">
+          <h1>{{value.title}}</h1>
+          <p>{{value.tip}}</p>
+        </ul>
+      </mat-expansion-panel>
+
+      
+      <mat-expansion-panel hideToggle>
+    
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{msg2}}
+          </mat-panel-title>
+          <mat-panel-description >
+            
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <ul *ngFor="let value of Stomach">
+          <h1>{{value.title}}</h1>
+          <p>{{value.tip}}</p>
+        </ul>
+      </mat-expansion-panel>
+     
+
+      <mat-expansion-panel hideToggle>
+    
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{msg3}}
+          </mat-panel-title>
+          <mat-panel-description >
+            
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <ul *ngFor="let value of Ear">
+          <h1>{{value.title}}</h1>
+          <p>{{value.tip}}</p>
+        </ul>
+      </mat-expansion-panel>
+
+
+      <mat-expansion-panel hideToggle>
+    
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{msg4}}
+          </mat-panel-title>
+          <mat-panel-description >
+            
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <ul *ngFor="let value of Eyes">
+          <h1>{{value.title}}</h1>
+          <p>{{value.tip}}</p>
+        </ul>
+      </mat-expansion-panel>
+
+
+      <mat-expansion-panel hideToggle>
+    
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{msg5}}
+          </mat-panel-title>
+          <mat-panel-description >
+            
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <ul *ngFor="let value of Legs">
+          <h1>{{value.title}}</h1>
+          <p>{{value.tip}}</p>
+        </ul>
+      </mat-expansion-panel>
+
+      </mat-accordion>
+
+
+    </div>
+
+
+
+
+    <div *ngIf="no2">
+      <br>
+      <br>
+      <br>
+    <h1>Registration Benifit</h1>
+
+    <ul>
+
+      <li>registration on our website gives you many benifit and its not compulsory that you have to register 
+           on our website without registration you can enjoy our website </li><br>
+      <li> one of the main benifit is that after registration we ask you for your favorite topics
+        and according to that we will show you the topics based on your area of interest </li><br>
+      <li>registration help you to keep track of your contribution and many more things   </li>
+
+    </ul>
+    
+    <a routerLink="/register">Register Here</a>
+    
+    </div>
+
+
+    <div *ngIf="no3">
+      <h1>Write a Comment</h1>
+    <li>Every project is incomplete without the user feedback,
+      feedback leads us to prons
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and cons of project. 
+    </li>
+    <br>
+    <li>
+    you can provide your feedback to us by writing the comment below,we
+      will &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;defifnitly think about your valueable feedback and make changes
+      as per feedback &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      if there is any need.
+    </li>
+    <br>
+    <li>
+      the feedback can be anything design issue,color,size as well as 
+      any new idea that &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      make project more attractive.
+    </li>
+<br>
+<mat-form-field class="width1" appearance="outline" >
+  <mat-label>Details</mat-label>
+  <textarea matInput></textarea>
+</mat-form-field>
+<br>
+<button mat-stroked-button type="submit" color="warn">Submit</button>
+<button mat-stroked-button type="submit" color="warn">Cancle</button>
+<br>
+<br>
+<br>
+<br>
+    </div>
+
+      <div *ngIf="no4">
+
+        <p class="warn"> Currently this feauture is unavailable !!!</p>
+        <br>
+        <br>
+        <p class="warn1"> Note: this feature is available when website deploy on WWW currently you are using 
+          demo of website which cnannot incude all features.  </p>
+      </div>
+    
+
+      <div *ngIf="no5">
+
+        <h1>About Us</h1>
+
+        <ul>
+          <li> first of all we not website expert or any specialist ,we are students which developing 
+            website for health awreness,its kind of project for us.  
+          </li>
+          <br>
+          <li>
+            whaterver the project is,every project has its own development team,in our developement 
+            team have three members.
+          </li>
+          <br>
+          <li>
+            Members:<br>
+            Er.Suarj batwal.<br>
+            Er.Vinay daundkar.<br>
+            Er.Shubham bhoskar.<br>
+          </li>
+          <br>
+          <li>
+            we also like to introduce our graphic designer or you can UI/Ux designer<br>
+            Er.Kartik hagir,he helps us to desing this application logo deisgn etc.
+
+          </li>
+        </ul>
+
+        <a routerLink="/contactus">Join Us</a>
+
+      </div>

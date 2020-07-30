@@ -1,0 +1,50 @@
+div
+{
+  text-align: left;  
+}
+
+.mat-form-field
+{
+  width:18em;
+  margin-inline-start: 20em;
+}
+
+
+
+h1
+{
+font-size: 25px;
+font-weight: bold;
+color: limegreen;
+margin-inline-start: 15em;
+}
+
+.mat-stroked-button
+{
+width: 150px;
+background-color: limegreen;
+color: white;
+margin-inline-start: 24em;
+}
+
+.mat-stroked-button:hover
+{
+  border-color: red;
+}
+
+.a1
+{
+margin-inline-start: 30.4em;
+color:red;
+}
+
+p
+{
+  margin-inline-start: 23em;
+}
+
+p a
+{
+  
+  color: red;
+}

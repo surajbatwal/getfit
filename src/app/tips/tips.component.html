@@ -1,0 +1,246 @@
+
+<br>
+<br>
+<br>
+<app-shortcut></app-shortcut>
+<div>
+
+ &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+  <img mat-card-avatar src=".\assets\images\left.png" (click)="prev()">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<button mat-button (click)="tipfirstButton(N1)" > {{N1}}</button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button mat-button (click)="tipsecondButton(N2)"> {{N2}}</button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button mat-button (click)="tipthirdButton(N3)"> {{N3}}</button>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img class="img1" mat-card-avatar src=".\assets\images\left.png" (click)="next()" >
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+
+
+<br>
+<br>
+
+
+  <mat-accordion *ngFor="let value of Heart" >
+   
+    <mat-expansion-panel hideToggle>
+  
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h1>{{value.title}}</h1>
+        </mat-panel-title>
+        <mat-panel-description >
+          
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ul >
+        
+        <p>{{value.tip}}</p>
+      </ul>
+    </mat-expansion-panel>
+  </mat-accordion>
+  
+
+
+  <mat-accordion *ngFor="let value of Head" >
+   
+    <mat-expansion-panel hideToggle>
+  
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h1>{{value.title}}</h1>
+        </mat-panel-title>
+        <mat-panel-description >
+          
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ul >
+        
+        <p>{{value.tip}}</p>
+      </ul>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+
+
+
+
+
+
+
+  <mat-accordion *ngFor="let value of Ear" >
+   
+    <mat-expansion-panel hideToggle>
+  
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h1>{{value.title}}</h1>
+        </mat-panel-title>
+        <mat-panel-description >
+          
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ul >
+        
+        <p>{{value.tip}}</p>
+      </ul>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+
+
+  
+  <mat-accordion *ngFor="let value of Legs" >
+   
+    <mat-expansion-panel hideToggle>
+  
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h1>{{value.title}}</h1>
+        </mat-panel-title>
+        <mat-panel-description >
+          
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ul >
+        
+        <p>{{value.tip}}</p>
+      </ul>
+    </mat-expansion-panel>
+  </mat-accordion>
+  
+
+  
+
+  <mat-accordion *ngFor="let value of Stomach" >
+   
+    <mat-expansion-panel hideToggle>
+  
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h1>{{value.title}}</h1>
+        </mat-panel-title>
+        <mat-panel-description >
+          
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ul >
+        
+        <p>{{value.tip}}</p>
+      </ul>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+  
+  <mat-accordion *ngFor="let value of Hands" >
+   
+    <mat-expansion-panel hideToggle>
+  
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h1>{{value.title}}</h1>
+        </mat-panel-title>
+        <mat-panel-description >
+          
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ul >
+        
+        <p>{{value.tip}}</p>
+      </ul>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+
+  <mat-accordion *ngFor="let value of Eyes" >
+   
+    <mat-expansion-panel hideToggle>
+  
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h1>{{value.title}}</h1>
+        </mat-panel-title>
+        <mat-panel-description >
+          
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ul >
+        
+        <p>{{value.tip}}</p>
+      </ul>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+  
+  <mat-accordion *ngFor="let value of Hair" >
+   
+    <mat-expansion-panel hideToggle>
+  
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h1>{{value.title}}</h1>
+        </mat-panel-title>
+        <mat-panel-description >
+          
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ul >
+        
+        <p>{{value.tip}}</p>
+      </ul>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+
+
+  <mat-accordion *ngFor="let value of Face" >
+   
+    <mat-expansion-panel hideToggle>
+  
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h1>{{value.title}}</h1>
+        </mat-panel-title>
+        <mat-panel-description >
+          
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ul >
+        
+        <p>{{value.tip}}</p>
+      </ul>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+
+  <mat-accordion *ngFor="let value of Back" >
+   
+    <mat-expansion-panel hideToggle>
+  
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h1>{{value.title}}</h1>
+        </mat-panel-title>
+        <mat-panel-description >
+          
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ul >
+        
+        <p>{{value.tip}}</p>
+      </ul>
+    </mat-expansion-panel>
+  </mat-accordion>

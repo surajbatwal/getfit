@@ -1,0 +1,98 @@
+
+
+p
+{
+    color: gray;
+    font-size: 16px ;
+    line-height: 23px;
+    text-transform: capitalize;
+    width: 40em;
+    text-align: justify;
+    padding-inline-start: 80px;
+}
+
+h1
+{
+    color:limegreen;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.mat-stroked-button
+{
+height: 40px;
+width:150px;
+}
+
+
+mat-toolbar
+{
+height: 80px;
+background-color: limegreen;
+}
+
+.mat-toolbar2
+{
+  height: 20px;
+background-color: limegreen;
+}
+
+.mat-toolbar3
+{
+  height: 10px;
+background-color: limegreen;
+
+}
+
+h4{
+    font-size: 22px;
+    color: white;
+}
+
+.spacer
+{
+flex:1 1 auto;
+
+}
+
+
+a
+  {
+    text-decoration: none;
+    color:white;
+    word-spacing: 50px;
+    font-size: 25px;
+    
+  }
+  
+a:hover
+{
+text-decoration-line: underline;
+}
+
+
+img
+{
+  height: 40px;
+  width: 40px;
+  padding-top: 5px;
+  border-radius: 20px;
+}
+
+
+.h11
+{
+    color:limegreen;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.toolbarh1
+{
+    color:white;
+    font-weight: bold;
+    font-size: 40px; 
+}
+
+
+

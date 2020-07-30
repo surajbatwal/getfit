@@ -1,0 +1,73 @@
+.mat-button
+{
+text-align: center;
+font-size: 18px;
+background-color: limegreen;
+height: 40px;
+width: 100px;
+color:white;
+border-radius: 10px;
+border-style: solid;
+border-color:black;
+border-width: 2px;
+
+}
+
+@keyframes mymove {
+  0%   {border-color:black; }
+  
+  100% {border-color:chartreuse;border-width: 3px;}
+}
+
+.mat-button:hover
+{
+  background-color: white;
+  color: limegreen;
+  transform: scale(1.3);
+ 
+}
+
+img
+{
+  height: 30px;
+  width: 30px;
+  padding-top: 5px;
+}
+
+
+
+.img1
+{
+transform:rotate(180deg);
+}
+
+
+
+p
+{
+color: grey;
+font-size: 17px;
+width: 40em;
+text-align: justify;
+line-height: 22px;
+
+}
+
+h1
+{
+  color: limegreen;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.mat-expansion-panel
+{
+    width: 55em;
+    min-height: 5em;
+    max-height: 100em;
+    margin-inline-start: 30px;
+    
+}
+
+

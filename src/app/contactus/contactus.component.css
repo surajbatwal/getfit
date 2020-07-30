@@ -1,0 +1,33 @@
+p
+{
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 22px;
+    width: 35em;
+    color: grey;
+    text-align: justify;
+    margin-inline-start: 40px;
+}
+
+h1
+{
+    margin-inline-start: 40px;
+    color: limegreen;
+    font-weight: bold;
+}
+
+img
+{
+    margin-inline-start: 80px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.3s;
+}
+
+img:hover
+{
+    top: -10px;
+
+}

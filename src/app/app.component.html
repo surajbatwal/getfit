@@ -1,0 +1,54 @@
+<mat-toolbar>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <h1 routerLink="home" class="toolbarh1">GetFit</h1>
+
+<span class="spacer"></span>
+
+
+<img mat-card-avatar src=".\assets\images\login.png"  alt="User Avatar">
+&nbsp;&nbsp;
+
+<mat-menu #appMenus="matMenu">
+<button class="warning" mat-menu-item>Features unavaialble</button>
+<button mat-menu-item>Profile</button>
+<button mat-menu-item>Settings</button>  
+</mat-menu>
+<button class ="tbutton" mat-icon-button [matMenuTriggerFor]="appMenus" >
+
+<h4>Login</h4>
+
+</button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</mat-toolbar>
+
+
+<mat-toolbar class="mat-toolbar2">
+    <span class="spacer"></span>
+    
+<a routerLink="/home">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a routerLink="/tips"  >Tips</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a routerLink="/contribute" >Contribute</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a routerLink="/contactus" >JoinUs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+</mat-toolbar>
+
+<mat-toolbar class="mat-toolbar3"></mat-toolbar>
+
+
+
+<app-heart *ngIf="router.url == '/'"  ></app-heart>
+
+
+<router-outlet></router-outlet>
+
+
+
+
+

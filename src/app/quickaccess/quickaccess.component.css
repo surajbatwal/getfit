@@ -1,0 +1,89 @@
+h1
+{
+    color: limegreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h2
+{
+color: limegreen;
+text-transform: capitalize;
+}
+
+.mat-expansion-panel
+{
+    width: 50em;
+    min-height: 5em;
+    max-height: 100em;
+}
+
+div
+{
+    margin-inline-start: 50px;
+}
+
+li
+{
+    font-size: 17px;
+    color: gray;
+    text-transform: capitalize;
+    width: 40em;
+    line-height: 22px;
+    margin-inline-start: 20px;
+    text-align: justify;
+}
+
+a
+{
+    margin-inline-start: 40px;
+    color:red;
+}
+
+
+.width1
+{
+    width:44.5em;
+    margin-inline-start: 40px;
+}
+
+
+.mat-form-field textarea
+{
+    color: limegreen;
+    font-weight: bold;
+    height: 12em;
+  
+}
+
+.mat-stroked-button
+{
+margin-inline-start: 3.5em;
+width: 10em;
+background-color: limegreen;
+color: white;
+}
+
+.mat-stroked-button:hover
+{
+border-color: red;
+}
+
+.warn
+{
+
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.warn1
+{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p{
+    width: 30em;
+    text-align: justify;
+}
